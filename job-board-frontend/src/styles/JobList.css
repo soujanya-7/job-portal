@@ -1,0 +1,25 @@
+/* ✅ Scope only to ApplyJob.jsx */
+.apply-job-page .job-list-container {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* ✅ Scope only to MyJobs.jsx */
+.my-jobs-page .job-list-container {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* Optional: Reset Job Card look ONLY inside these pages */
+.apply-job-page .job-card,
+.my-jobs-page .job-card {
+  background-color: #f7faff;
+  color: #222;
+  border: 1px solid #ddd;
+}
+
+/* Buttons only in MyJobs */
+.my-jobs-page .edit-btn,
+.my-jobs-page .delete-btn {
+  font-size: 14px;
+}

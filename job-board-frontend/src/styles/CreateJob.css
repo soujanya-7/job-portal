@@ -1,0 +1,74 @@
+/* src/styles/CreateJob.css */
+
+.job-post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  min-height: 100vh;
+  background: #0f0f12;
+  color: #fff;
+  
+}
+
+
+.job-form-box {
+  margin-top: 0px;
+  width: 100%;
+  max-width: 500px;
+  background: #18181b;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(157, 78, 221, 0.2);
+}
+
+.job-form-box h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #9d4edd;
+  text-align: center;
+}
+
+.job-form-box input,
+.job-form-box textarea,
+.job-form-box select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  background-color: #1c1c1f;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.job-form-box input:focus,
+.job-form-box textarea:focus,
+.job-form-box select:focus {
+  border-color: #9d4edd;
+}
+
+.job-form-box textarea {
+  resize: vertical;
+  min-height: 10px;
+}
+
+.job-form-box button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #7048e8, #9d4edd);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.job-form-box button:hover {
+  background: #a96dff;
+  transform: translateY(-1px);
+}
